@@ -1,20 +1,9 @@
-##Bargraph Breakout Kit
+SparkFun Bargraph Breakout Kit Arduino Library
+========================================
 
-This kit contains a PCB and all the parts needed to build a fun, 30-LED bargraph that can be driven by an Arduino or other microcontroller. This kit uses 74HC595 shift registers and three, 10-LED bargraph modules to create the display. We supply one green, one yellow and one red module for “safe / caution / DANGER!” displays, or you can use other 10-LED bargraphs for different colors (not included). The display is easily driven by any microcontroller with an SPI interface, and you have individual control over every LED.
+![Bargraph Breakout Kit](https://cdn.sparkfun.com//assets/parts/6/1/0/1/10936-01.jpg)
 
-For instructions on building and using the kit, see the .PDF file included with this repository.
-
-###Arduino demo code installation:
-
-If you haven't, install the latest version of the Arduino IDE available at http://www.arduino.cc.
-
-The demo code uses a nonstandard library called SFEbarGraph which is included in this repository.
-
-####Installing the library:
-
-TL;DR: The one-step procedure is to drag the contents of the Arduino folder to your personal Arduino sketch folder. This will create a "libraries" folder containing the SFEbarGraph library.
-
-To install the library manually, copy the "libraries" folder from this repository to your personal Arduino sketch directory. (If there is already a "libraries" folder there, go ahead and add the included library to it.) You'll need to restart the Arduino IDE to get it to recognize the new library.
+[*Bargraph Breakout Kit (DEV-10936)*](https://www.sparkfun.com/products/10936)
 
 The library includes example sketches. To load one of them:
 
@@ -32,6 +21,40 @@ The library includes example sketches. To load one of them:
 
 7. Click on the Upload (right arrow) button at the top of the window. The code should compile, upload to your Arduino, and run. Hopefully your Bargraph Breakout is now doing something interesting!
 
-If you have any problems, we'll be happy to help you out. Our email address is techsupport@sparkfun.com
 
-Have fun! -Your friends at SparkFun.
+Repository Contents
+-------------------
+
+* **/examples** - Example sketches for the library (.ino). Run these from the Arduino IDE. 
+* **/src** - Source files for the library (.cpp, .h).
+* **keywords.txt** - Keywords from this library that will be highlighted in the Arduino IDE. 
+* **library.properties** - General library properties for the Arduino package manager. 
+
+Documentation
+--------------
+
+* **[Installing an Arduino Library Guide](https://learn.sparkfun.com/tutorials/installing-an-arduino-library)** - Basic information on how to install an Arduino library.
+* **[Github Repository](https://github.com/sparkfun/Bargraph_Breakout_Kit)** - Main repository (including hardware files) for the Bargraph Breakout Kit.
+
+Products that use this Library 
+---------------------------------
+
+* [DEV-10936](https://www.sparkfun.com/products/10936) - PCB/parts to build a 30-LED bargraph.
+
+Version History
+---------------
+
+* [V_1.1.0](https://github.com/sparkfun/Bargraph_Breakout_Kit_Arduino_Library/tree/V_1.1.0) - Updated for Arduino Manager 
+
+License Information
+-------------------
+
+This product is _**open source**_! 
+
+The **code** is beerware; if you see me (or any other SparkFun employee) at the local, and you've found our code helpful, please buy us a round!
+
+Please use, reuse, and modify these files as you see fit. Please maintain attribution to SparkFun Electronics and release anything derivative under the same license.
+
+Distributed as-is; no warranty is given.
+
+- Your friends at SparkFun.
