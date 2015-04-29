@@ -44,6 +44,7 @@ Products that use this Library
 Version History
 ---------------
 
+* [V_1.1.2](https://github.com/sparkfun/Bargraph_Breakout_Kit_Arduino_Library/tree/V_1.1.2) - Fixed library.properties again
 * [V_1.1.1](https://github.com/sparkfun/Bargraph_Breakout_Kit_Arduino_Library/tree/V_1.1.1) - Fixed library.properties
 * [V_1.1.0](https://github.com/sparkfun/Bargraph_Breakout_Kit_Arduino_Library/tree/V_1.1.0) - Updated for Arduino Manager 
 
